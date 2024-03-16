@@ -1,0 +1,93 @@
+
+Integrate - Jenkins,Bamboo
+
+Deploy and Operate - Puppet,Docker,Chef
+
+Monitor - Splunk,Nagios
+
+Plan & Code - Git,
+ 
+Build - Maven,Gradle
+
+Test - JUnit,Selenium
+
+Contionious Delivery:
+
+This process we called as Contionious Intergration
+
+Plan --> Code --> Build --> Test --> Release 
+          |_________Failure/Defect___||
+    <---Monitor<--Operate<--Deploy<---|Success
+        ----Contionious Deployment----
+        
+
+Version controll system:
+
+
+Fork and clone:
+
+git:
+Create Repository:
+
+Change directory command: (Cd ~/folder name) we have to given.
+Folder creation: Create new folder using - (mkdir Folder name) - we have to give.
+To check status: (git status)
+Intilize command : (git init)
+Create a text file : create a text file in folder which we are create.
+check the status: execute command status Git status 
+Add the text file: command (git add text file name.txt) we have to give.
+commit the file to main repository: (git commit -m "Name of the commit") we have to give.
+change or add in the txt file.
+ex: Hi, Hello git.
+check the difference: (git diff)
+connecting to github remotely:
+(git config --user.name which we have to give github account username-github)
+(git remote add origin https://github.com/repositary name/folder name.git)
+Push the git command: (git push orgin master)
+asking for authentication:
+(git remote set-url origin https://github.com/repositary name/folder name.git)
+
+Create a New local repositary:
+(mkdir folder Name)
+Move the created folder:
+(cd created folder name)
+now use git command: git init
+create two files in the created folder:
+git add .
+check the branch:
+[git checkout test_branch(in test we need to give folder name)]
+To verify the files:
+(ls)
+To merge:
+[git merge test_branch(in test we need to give folder name)]
+Suppose if you have any changes in the files: use command
+(git commit -a -m "new updates")
+Rebase the master:
+(git rebase master)
+
+use (git rebase test_branch)
+
+git commands:
+
+git config --list
+clear
+git log
+Create a file - touch file name .txt 
+notepad folder name.
+git remote -v
+git push -u origin master
+git clone server_Repo_url
+git commit -m ("Message")
+git status
+git init
+merge = git merge branch name 
+git checkout master( switch the branch)
+git log --pretty=oneline
+delete the branch - git branch -D branch name
+delete in the server - git push orgin --delete branch name
+
+
+
+
+
+
